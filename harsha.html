@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
     <link rel="stylesheet" href="harsha.css">
 </head>
+
 <body>
     <div class="resume">
         <!-- left-side -->
@@ -82,19 +84,27 @@
                 <div class="info-box padding-top-sm">
                     <div class="lang-box">
                         <p class="info-title">English</p>
-                        <span class="percent"><div style="width: 90%;"></div></span>
+                        <span class="percent">
+                            <div style="width: 90%;"></div>
+                        </span>
                     </div>
                     <div class="lang-box">
                         <p class="info-title">Kannada</p>
-                        <span class="percent"><div style="width: 80%;"></div></span>
+                        <span class="percent">
+                            <div style="width: 80%;"></div>
+                        </span>
                     </div>
                     <div class="lang-box">
                         <p class="info-title">Hindi</p>
-                        <span class="percent"><div style="width: 85%;"></div></span>
+                        <span class="percent">
+                            <div style="width: 85%;"></div>
+                        </span>
                     </div>
                     <div class="lang-box">
                         <p class="info-title">Tamil</p>
-                        <span class="percent"><div style="width: 40%;"></div></span>
+                        <span class="percent">
+                            <div style="width: 40%;"></div>
+                        </span>
                     </div>
                 </div>
             </div>
@@ -113,18 +123,42 @@
 
             <div class="experience padding-top-bg">
                 <h1 class="heading-primary-black">Experience</h1>
-                
-                
-                
+
+
+
                 <div class="xp-box padding-top-sm">
                     <p class="xp-year">Jan 2024-Present</p>
                     <p class="xp-company">Velmeni Inc. | Remote</p>
                     <p class="xp-position">Software Engineer</p>
                     <p class="discription">
-                        1. Spearheaded the integration of PACS servers with the company's AI driven report generation module using core Python, delivering the company’s first live project.<br>
-                        2. Secured $80,000 in recurring annual revenue from a single client by deploying the integrated PACS solution.<br>
-                        3. Engineered a high-performance syncing service for dental imaging software using Python, Django, Celery, AWS (S3, Lambda, SQS), and PowerShell, streamlining data workflows.<br>
-                        4. Achieved $100,000 in cost savings by developing the syncing service in-house, replacing third-party tools and enhancing operational control.<br>
+                        1. Spearheaded the integration of PACS servers with the company's AI-driven report generation
+                        module using Django REST
+                        Framework and Python, delivering the company’s first live project and generating $80,000 in
+                        recurring annual revenue by
+                        streamlining medical data workflows, handling 500+ report generations per month from a single
+                        client.<br>
+                        2. Engineered a high-performance syncing service that integrates with dental imaging software
+                        using Python, Django, Celery,
+                        and AWS (S3, Lambda, SQS), ensuring 99.9% reliability in real-time file synchronization, with
+                        the ability to handle 50+
+                        scans per minute, ensuring robust system reliability and scalability.<br>
+                        3. Achieved $100,000 in annual cost savings by developing the Velmeni Bridge in-house,
+                        eliminating third-party dependencies.
+                        Deployed the service as a Windows Service integrated with PowerShell scripts, ensuring
+                        continuous availability and
+                        operational efficiency.<br>
+                        4. Contributed to the development of Velmeni SD-API V2, focusing on building robust
+                        ModelViewSets, Django signals, and
+                        optimizing SQL queries. Utilized Django’s MVC architecture to handle patients and scan data
+                        effectively.<br>
+                        5. Implemented a robust CI/CD pipeline for Velmeni Bridge 2.0 using GitHub Actions, automating
+                        testing and deployments.
+                        Worked on Docker configurations to streamline the CI/CD process for SD-API V2, improving
+                        deployment efficiency.<br>
+                        6. Enhanced system fault tolerance by implementing exponential backoff retry mechanisms, task
+                        scheduling, and detailed error
+                        logging, reducing downtime resolution by 92% and significantly improving reliability in
+                        healthcare data processing.<br>
                     </p>
                 </div>
 
@@ -145,24 +179,24 @@
             <div class="experience padding-top-bg">
                 <h1 class="heading-primary-black">projects</h1>
                 <div class="xp-box padding-top-sm">
-                    <p class="xp-year">Dec 2024-Present</p>
-                    <p class="xp-position"> Cloud based collaborative document editor </p>
+                    <p class="xp-position"> Cloud resume project </p>
                     <p class="discription">
-                    1. Development of a collaborative document editing platform using vanilla JavaScript for the frontend and real-time interactions.<br>
-                    2. Integration of Quill as the rich text editor and ShareDB for real-time synchronization and conflict resolution.<br>
-                    3. Backend built using AWS Lambda, API gateway, AWS cognito with DynamoDB for efficient and scalable document storage.<br>
-                    4. Implementation of simultaneous multi-user editing.<br>
-                    5. Utilization of WebSocket for real-time collaboration, providing a seamless user experience.<br>
+                        1. Engineered a dynamic, cloud-hosted resume leveraging AWS S3 and CloudFront. <br>
+                        2. Automated serverless infrastructure deployment using AWS SAM. <br>
+                        3. Streamlined a CI/CD pipeline for swift and reliable updates. <br>
+                        4. Configured AWS Route 53 for optimal global domain management. <br>
+                        5. Demonstrated advanced serverless architecture and DevOps best practices. <br>
                     </p>
                 </div>
                 <div class="xp-box padding-top-sm">
-                    <p class="xp-year">Mar 2023-Apr 2023</p>
                     <p class="xp-position"> Implementing k-medoids clustering in parallel </p>
                     <p class="discription">
-                    1. Wrote parallel implementations of k-medoid clustering components using CUDA and MPI. <br>
-                    2. Wrote a parallel implementation of silhouette coefficient using MPI. <br>
-                    3. Used rice gene expression dataset to evaluate the implementation. Achieved highest silhouette score of 0.65. <br>
-                    4. Achieved a significant speedup of 7x for clustering and 20x for evaluation compared to serial implementation. <br>
+                        1. Wrote parallel implementations of k-medoid clustering components using CUDA and MPI. <br>
+                        2. Wrote a parallel implementation of silhouette coefficient using MPI. <br>
+                        3. Used rice gene expression dataset to evaluate the implementation. Achieved highest silhouette
+                        score of 0.65. <br>
+                        4. Achieved a significant speedup of 7x for clustering and 20x for evaluation compared to serial
+                        implementation. <br>
 
                     </p>
                 </div>
@@ -203,38 +237,39 @@
     <script>
         // URL of your AWS Lambda function endpoint
         var lambdaUrl = "https://w6gyi7wtuyi7esmmmp3uv37nbe0zdvzt.lambda-url.us-east-1.on.aws/";
-    
+
         // Function to fetch the visitor count from the Lambda function
         function fetchVisitorCount() {
             console.log('Fetching visitor count...');
-    
+
             fetch(lambdaUrl, {
                 method: 'GET'
             })
-            .then(response => {
-                if (!response.ok) {
-                    console.log(response);
-                    throw new Error('Network response was not ok');
-                }
-                return response.json(); // Parse the JSON response
-            })
-            .then(data => {
-                // Extract the count from the response
-                console.log('Response data:', data);
-                var count = data.visitors;
-    
-                // Update the count in the HTML
-                document.getElementById('count').innerText = count;
-            })
-            .catch(error => {
-                console.error('Error fetching visitor count:', error);
-                document.getElementById('count').innerText = 'Error fetching data';
-            });
+                .then(response => {
+                    if (!response.ok) {
+                        console.log(response);
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json(); // Parse the JSON response
+                })
+                .then(data => {
+                    // Extract the count from the response
+                    console.log('Response data:', data);
+                    var count = data.visitors;
+
+                    // Update the count in the HTML
+                    document.getElementById('count').innerText = count;
+                })
+                .catch(error => {
+                    console.error('Error fetching visitor count:', error);
+                    document.getElementById('count').innerText = 'Error fetching data';
+                });
         }
-    
+
         // Fetch the visitor count when the page loads
         window.onload = fetchVisitorCount;
     </script>
-    
+
 </body>
+
 </html>
